@@ -11,6 +11,6 @@ Get started
 $ workon platformio
 $ cd {project_dir}
 $ git clone git@github.com:boarnasia/arduino-led.git lib/LED
-$ cp lib/LED/examples/3-leds.ino .
+$ cp lib/LED/examples/3-leds.ino src/.
 $ platformio run --target upload
 ```
