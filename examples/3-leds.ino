@@ -1,4 +1,4 @@
-// for Arduino LEONARDO
+// for Arduino LEONARD
 
 #include "led.h"
 
@@ -9,7 +9,7 @@ int led_pins[] = { 3, 5, 6 };
 
 void setup() {
     // initialize 3 leds
-    for (int i=0; i<LED_LEN; i++) leds[i] = new LED(led_pins[i], i * 60, 75);
+    for (int i=0; i<LED_LEN; i++) leds[i] = new LED(led_pins[i], 75, i * 60);
 }
 
 void loop() {

@@ -23,7 +23,8 @@ class LED
          * Constructor
          *
          * @param pin_id    PIN number
-         * @param interval  Controlling breath spead. unit is loop cycle not millisecond.
+         * @param interval  Controlling breath spead. Unit is loop cycle not millisecond.
+         * @param ini_deg   Initial degree
          */
         LED(int pin_id, uint32_t interval = 10, int ini_deg = 0);
 

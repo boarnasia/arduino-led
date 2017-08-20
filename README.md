@@ -14,4 +14,3 @@ $ git clone git@github.com:boarnasia/arduino-led.git lib/LED
 $ cp lib/LED/examples/3-leds.ino .
 $ platformio run --target upload
 ```
-
